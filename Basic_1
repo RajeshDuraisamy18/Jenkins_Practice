@@ -1,0 +1,10 @@
+pipeline {
+    agents any
+    stages {
+        stage('Welcome to Jenkins pipeline') {
+            steps {
+                echo 'Hi Rajesh !!!!'
+            }
+        }
+    }
+}
