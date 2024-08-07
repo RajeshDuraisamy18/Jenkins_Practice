@@ -1,5 +1,5 @@
 pipeline {
-    agents any
+    agent any
     stages {
         stage('Welcome to Jenkins pipeline') {
             steps {
